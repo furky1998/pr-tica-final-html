@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obra</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+</head>
+
+<body>
+    <div>
+        <div id="menu" class="navbar">
+            <a href="index.html" class="#menu">Gemma Marfany</a>
+            <a href="index.html">Biografia</a>
+            <a href="">Obra</a>
+            <a href="galeria.html">Galeria</a>
+        </div>
+
+        <div>
+            <img src="img/portada2.jpg" style="width:100%;">
+        </div>
+
+
+        <div class="caption-container2">
+            <p id="caption2"></p>
+        </div>
+
+        <div class="container">
+
+            <div>
+                <img class="obrafoto1" src="img/gens.jpg"></br>
+
+                <div class="bioObra">
+                    <div class="titolfeina">
+                        <h2>ÀMBIT D'ESTUDI</h2>
+                    </div>
+                    <p>
+                        La trajectòria científica i acadèmica de Gemma Marfany s’ha desenvolupat a Barcelona, Edimburg i
+                        Oxford.
+                        Actualment, dirigeix un grup de recerca a la UB de genètica molecular humana sobre gens que
+                        causen
+                        ceguesa hereditària i és la cap de la Unitat U718 del Centre d’Investigació Biomèdica en Xarxa
+                        de
+                        Malalties Rares (CIBERER). També és membre de l’Institut de Biomedicina de la UB (IBUB), de
+                        l’Observatori de Bioètica i Dret i de la Comissió de Bioètica de la UB. Té més de 85
+                        publicacions, ha
+                        dirigit onze tesis doctorals i nombrosos treballs de màster i de final de grau. El 2018 va
+                        cofundar una
+                        spin-off de diagnòstic genètic de malalties genètiques oculars, DBGen.
+                    </p>
+                    <p>
+                        També és especialista en qüestions bioètiques derivades de l’ús de l’ADN en la societat i en
+                        divulgació
+                        científica. Actualment és coordinadora del màster de Biologia del desenvolupament i Genètica de
+                        la UB,
+                        membre de l’Institut de Biomedicina (IBUB), de l’Observatori de Bioètica i Dret, i assessora
+                        externa de
+                        la Comisión Nacional para el uso forense del ADN. En la vessant divulgativa, publica cada
+                        dissabte
+                        entretinguts i rigurosos articles a El Nacional.cat.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="lol">
+            <h1>LLIBRES PUBLICATS</h1>
+        </div>
+
+        <div class="llibres1">
+            <img class="obrafoto2" src="img/llibre1.jpg"></br>
+            <div class="biollibre1">
+                <p>
+                    És evident que les condicions de vida determinen, de forma important, l'esperança de vida d'una
+                    població.
+                    Sabem que la disponibilitat d'aigua potable, el desenvolupament de la medicina, una alimentació
+                    saludable,
+                    una vida activa i un nivell controlat d'estrès ajuden a viure més i millor. Però també sabem que tot
+                    això no
+                    ens fa immortals. Per què envellim? És un càstig diví, o una limitació de la vida? Les autores
+                    (Gemma
+                    Marfany i Maria Soley) ofereixen una descripció clara de quins canvis biològics es produeixen en els
+                    organismes vius amb el pas del temps i expliquen com es produeix el deteriorament que ens porta a
+                    l'envelliment. Però no es conformen en explicar per què i proposen, de forma raonada i amb els
+                    coneixements
+                    científics actuals, què podem fer per envellir més lentament, per viure més i millor.
+                </p>
+            </div>
+        </div>
+
+        <div class="llibres2">
+            <img class="obrafoto3" src="img/llibre2.jpg"></br>
+            <div class="biollibre2">
+                <p>
+                    La genètica forense ha abandonat els soterranis foscos i asèptics que mostren les sèries de televisió,
+                    utilitza tecnologies sofisticades, es comercialitza per Internet i és part integrant de la nostra vida
+                    diària. Resulta molt útil tant per identificar una taca de sang trobada al lloc d'un crim com per
+                    establir
+                    relacions de paternitat. L'anàlisi genètica forense pot, amb igual certesa, identificar a violadors i
+                    mòmies, assassins i reis, vinyes i sementals. El DNA s’ha convertit en el nostre DNI.</br>
+                    
+                    La genètica forense ha abandonat els soterranis foscos i asèptics que mostren les sèries de televisió,
+                    utilitza tecnologies sofisticades, es comercialitza per Internet i és part integrant de la nostra vida
+                    diària. Resulta molt útil tant per identificar una taca de sang trobada al lloc d'un crim com per
+                    establir
+                    relacions de paternitat. L'anàlisi genètica forense pot, amb igual certesa, identificar a violadors i
+                    mòmies, assassins i reis, vinyes i sementals. El DNA s’ha convertit en el nostre DNI.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+        <footer>
+            <div class="footer">
+                <p class="copyrigth">Posat en contacte</p>
+                <div class="info">
+                    <a>Departament de Genètica</a><br>
+                    <a>Facultat de Biologia, Barcelona</a><br>
+                    <a>Av. Diagonal, 643, edifici Prevosti, 2a planta</a><br>
+                    <a>Tel.: +34 93 4021502</a><br>
+                    <a>A/e: gmarfany@ub.edu</a>
+                </div>
+                <h3>Eloi Forcada Copyright</h3>
+            </div>
+        </footer>
+
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var header = document.getElementById("menu");
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+
+</body>
+
+
+</html>

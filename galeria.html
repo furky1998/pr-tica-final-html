@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style3.css">
+</head>
+
+<body>
+
+  <div id="menu" class="navbar">
+    <a href="index.html" class="#menu">Gemma Marfany</a>
+    <a href="index.html">Biografia</a>
+    <a href="obra.html">Obra</a>
+    <a href="">Galeria</a>
+  </div>
+
+
+  <div class="responsive">
+    <div class="galeria">
+      <a target="img" href="img/gemma.jpg">
+        <img src="img/gemma.jpg" alt="" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="galeria">
+      <a target="img" href="img/gemma3.jpg">
+        <img src="img/gemma3.jpg" alt="" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="galeria">
+      <a target="img" href="img/gemma.png">
+        <img src="img/gemma.png" alt="" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="galeria">
+      <a target="img" href="img/gemma4.jpg">
+        <img src="img/gemma4.jpg" alt="" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="galeria">
+      <a target="img" href="img/gemma2.jpg">
+        <img src="img/gemma2.jpg" alt="" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="galeria">
+      <a target="img" href="img/gemma5.jpg">
+        <img src="img/gemma5.jpg" alt="" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="galeria">
+      <a target="img" href="img/gemma6.jpg">
+        <img src="img/gemma6.jpg" alt="" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="galeria">
+      <a target="img" href="img/gemma7.jpg">
+        <img src="img/gemma7.jpg" alt="" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
+  
+
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var header = document.getElementById("menu");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+
+</html>
